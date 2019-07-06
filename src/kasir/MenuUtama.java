@@ -219,8 +219,8 @@ public class MenuUtama extends javax.swing.JFrame {
     private void btnenterActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnenterActionPerformed
         // TODO add your handling code here:
         String strbeli=txtbeli.getText();
-        double frelynna=Integer.parseInt(strbeli);
-        double total=hargamkn*frelynna;
+        double asd=Integer.parseInt(strbeli);
+        double total=hargamkn*asd;
         double pajak=0.1*total;
         tot2=total+pajak;
         String keluar=String.valueOf(tot2);
